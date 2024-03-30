@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ExpressVPN - Sign Up</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        /* General Styles */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f8f8f8;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+        }
+        .container {
+            max-width: 1200px;
+            margin: auto;
+            overflow: hidden;
+            padding: 0 20px;
+        }
+        header {
+            background: #0078D4;
+            color: #fff;
+            padding: 10px 0;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 24px;
+        }
+        header img {
+            width: 150px;
+            height: auto;
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+            text-align: center;
+            margin-top: 20px;
+        }
+        nav ul li {
+            display: inline;
+            margin-right: 20px;
+        }
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        .signup-section {
+            text-align: center;
+            padding: 50px 0;
+        }
+        .signup-form {
+            max-width: 500px;
+            margin: auto;
+            background: #fff;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .signup-form h2 {
+            margin-bottom: 20px;
+            color: #0078D4;
+        }
+        .signup-form input[type="text"],
+        .signup-form input[type="email"],
+        .signup-form input[type="password"] {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 20px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            box-sizing: border-box;
+        }
+        .signup-form button {
+            background-color: #0078D4;
+            color: #fff;
+            text-decoration: none;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+        .signup-form button:hover {
+            background-color: #005EAC;
+        }
+        footer {
+            background: #0078D4;
+            color: #fff;
+            text-align: center;
+            padding: 20px 0;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <img src="expressvpn-logo.png" alt="ExpressVPN Logo">
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="pricing.html">Pricing</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="signup-section">
+        <div class="container">
+            <div class="signup-form">
+                <h2>Sign Up for ExpressVPN</h2>
+                <form action="#" method="post">
+                    <input type="text" name="fullname" placeholder="Full Name" required><br>
+                    <input type="email" name="email" placeholder="Email Address" required><br>
+                    <input type="password" name="password" placeholder="Password" required><br>
+                    <button type="submit">Create Account</button>
+                </form>
+                <p>Already have an account? <a href="login.html">Log in</a></p>
+            </div>
+        </div>
+    </section>
+
+    
+    <!-- Trust Indicators Section -->
+    <section class="trust-indicators">
+        <div class="container">
+            <div class="trust-indicator">
+                <h3>160</h3>
+                <p>Locations</p>
+            </div>
+            <div class="trust-indicator">
+                <h3>94</h3>
+                <p>Countries</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="testimonials">
+        <div class="container">
+            <h2>What our customers say</h2>
+            <div class="testimonial">
+                <img src="user-avatar1.png" alt="User Avatar">
+                <p>"ExpressVPN has changed the way I browse the internet. It's fast, reliable, and secure."</p>
+                <span>- John Doe</span>
+            </div>
+            <div class="testimonial">
+                <img src="user-avatar2.png" alt="User Avatar">
+                <p>"I've tried several VPNs, but none come close to the performance of ExpressVPN. Highly recommended!"</p>
+                <span>- Jane Smith</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 ExpressVPN</p>
+        </div>
+    </footer>
+</body>
+</html>

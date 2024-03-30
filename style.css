@@ -1,0 +1,393 @@
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header .logo img {
+    width: 150px;
+}
+
+header nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+hero {
+    background-color: #f2f2f2;
+    padding: 50px 0;
+    text-align: center;
+}
+
+hero h2 {
+    color: #333;
+}
+
+hero p {
+    color: #666;
+}
+
+hero button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.hero button:hover {
+    background-color: #0056b3;
+}
+
+/* Additional Styles for Each Page */
+.about-section,
+.blog-section,
+.contact-section,
+.pricing-section {
+    padding: 50px 0;
+}
+
+.about-section h2,
+.blog-section h2,
+.contact-section h2,
+.pricing-section h2 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.about-section p,
+.blog-section p,
+.contact-section p,
+.pricing-section p {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.blog-section .blog-post {
+    background-color: #f9f9f9;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.blog-section .blog-post h3 {
+    color: #333;
+}
+
+.blog-section .blog-post p {
+    color: #666;
+}
+
+.blog-section .blog-post a {
+    background-color: #007bff;
+    color: #fff;
+    padding: 5px 10px;
+    text-decoration: none;
+}
+
+.blog-section .blog-post a:hover {
+    background-color: #0056b3;
+}
+
+.contact-section form {
+    text-align: center;
+}
+
+.contact-section form label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.contact-section form input,
+.contact-section form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.contact-section form button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.contact-section form button:hover {
+    background-color: #0056b3;
+}
+
+.pricing-section .pricing-plan {
+    background-color: #f9f9f9;
+    padding: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.pricing-section .pricing-plan h3 {
+    color: #333;
+}
+
+.pricing-section .pricing-plan p {
+    color: #666;
+    margin-bottom: 10px;
+}
+
+.pricing-section .pricing-plan a {
+    background-color: #007bff;
+    color: #fff;
+    padding: 5px 10px;
+    text-decoration: none;
+}
+
+.pricing-section .pricing-plan a:hover {
+    background-color: #0056b3;
+}
+/* Hero Section Styles */
+hero {
+    background-color: #007bff;
+    color: #030303;
+    padding: 80px 0;
+    text-align: center;
+  }
+  
+  hero h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  hero p {
+    font-size: 18px;
+    margin-bottom: 40px;
+  }
+  
+  hero button {
+    background-color: #fff;
+    color: #007bff;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+  }
+  
+  hero button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Benefits Section Styles */
+  .benefits {
+    padding: 60px 0;
+    background-color: #f9f9f9;
+    text-align: center;
+  }
+  
+  .benefits .container {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .benefit {
+    flex: 1;
+    margin: 0 20px;
+    padding: 20px;
+    border-radius: 5px;
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .benefit img {
+    width: 80px;
+    margin-bottom: 20px;
+  }
+  
+  .benefit h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .benefit p {
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+  
+  /* Server Network Section Styles */
+  .server-network {
+    padding: 80px 0;
+    text-align: center;
+  }
+  
+  .server-network img {
+    max-width: 100%;
+    margin-top: 20px;
+  }
+  
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+}
+
+header .logo img {
+    width: 150px;
+}
+
+header nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.get-expressvpn {
+    padding: 50px 0;
+    text-align: center;
+}
+
+.get-expressvpn h2 {
+    margin-bottom: 20px;
+}
+
+.get-expressvpn p {
+    color: #666;
+    margin-bottom: 30px;
+}
+
+.get-expressvpn form label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.get-expressvpn form input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.get-expressvpn form button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.get-expressvpn form button:hover {
+    background-color: #0056b3;
+}
+/* Trust Indicators Section Styles */
+.trust-indicators {
+    padding: 50px 0;
+    text-align: center;
+  }
+  
+  .trust-indicator {
+    display: inline-block;
+    margin-right: 40px;
+  }
+  
+  .trust-indicator h3 {
+    color: #333;
+  }
+  
+  .trust-indicator p {
+    color: #666;
+  }
+  
+  /* Testimonials Section Styles */
+  .testimonials {
+    background-color: #333;
+    color: #fff;
+    padding: 50px 0;
+    text-align: center;
+  }
+  
+  .testimonial {
+    margin-bottom: 40px;
+  }
+  
+  .testimonial img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+  }
+  
+  .testimonial p {
+    font-style: italic;
+  }
+  
+  .testimonial span {
+    font-weight: bold;
+  }
+  
+  /* Footer Styles */
+  footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+  }
+  
+  footer p {
+    margin: 0;
+  }
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
